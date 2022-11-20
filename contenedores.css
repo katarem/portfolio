@@ -1,0 +1,31 @@
+#contenedor{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+    text-align: center;
+}
+
+#menu{
+    display: inline-flex;
+    flex-direction: row;
+    flex: inherit;
+    padding: 5px;
+    margin: 4px;
+
+}
+
+/* p{
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid black;
+} */
