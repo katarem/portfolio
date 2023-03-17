@@ -16,6 +16,7 @@ body{
 .header{
     background-color: rgb(15,15,15);
     margin: 10px;
+    width: 100%;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -58,6 +59,7 @@ body{
 
 .main{
     display: flex;
+    flex-direction: row;
     height: 100%;
     width: 100%;
 }
@@ -131,5 +133,18 @@ body{
 @media (min-width: 1151px) {
     .posts p{
         text-align: center;
+    }
+
+}
+
+@media (max-width: 477px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .profileInfo{
+        width: 100%;
+        margin-right: 10px;
+        margin: 10px;
     }
 }
