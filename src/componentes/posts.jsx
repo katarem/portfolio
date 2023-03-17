@@ -13,6 +13,7 @@ class Posts extends React.Component {
           Hola, soy Cristian, desarrollador multiplataforma y este es mi
           porfolio donde iré incluyendo mi trabajo por la red.
         </p>
+        <h2>PROYECTOS</h2>
         <Post text="Katapi" link="https://github.com/katarem/KatApi" />
         <Post text="Lolstats" link="https://github.com/dam-dad/LoLstats" />
         <Post
