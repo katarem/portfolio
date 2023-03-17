@@ -16,7 +16,7 @@ body{
 .header{
     background-color: rgb(15,15,15);
     margin: 10px;
-    width: 100%;
+    width: 97.5%;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
@@ -136,15 +136,24 @@ body{
     }
 
 }
-
+/*Adaptarse a móvil*/
 @media (max-width: 477px){
+    .header{
+        width: 92.2%;
+        padding-right: 0px;
+    }
     .main{
         display: flex;
         flex-direction: column;
+        padding: 0px;
     }
     .profileInfo{
-        width: 100%;
-        margin-right: 10px;
-        margin: 10px;
+        padding: 0px;
+        width: 94.2%;
+        margin-bottom: 10px;
+    }
+    .posts{
+        padding: 10px;
+        width: 89.3%;
     }
 }
