@@ -1,13 +1,135 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: rgb(35, 33, 33);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: miEstilo;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.raiz{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(15,15,15);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.info{
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.infoElement{
+    padding: 5px;
+}
+
+.profileInfo{
+    background-color: rgb(15, 15, 15);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.profilePic{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.posts{
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.posts h2{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.posts p{
+    text-align: justify;
+}
+
+.post{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: all .2s ease-in-out;
+
+    -webkit-user-select: none; /* Para navegadores basados en Webkit como Chrome y Safari */
+    -moz-user-select: none; /* Para navegadores basados en Gecko como Firefox */
+    -ms-user-select: none; /* Para navegadores basados en Trident como Internet Explorer y Edge */
+    user-select: none; /* Para navegadores basados en Blink como Opera y otros navegadores */
+}
+
+.post:hover{
+    transform: scale(1.02); 
+}
+
+.linkButton{
+    width: 50px;
+    height: 50px;
+    transition: all .2s ease-in-out;
+}
+
+.linkButton:hover{
+    transform: scale(1.1); 
+}
+
+.buttonBox{
+    padding: 5px;
+}
+
+.buttonBox > *{
+    margin: 5px;
+}
+
+@font-face {
+    font-family: miEstilo;
+    src: url('/resources/fonts/SF-Pro-Display-Regular.ttf');
+}
+@media (min-width: 1151px) {
+    .posts p{
+        text-align: center;
+    }
 }
