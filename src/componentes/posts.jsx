@@ -50,7 +50,7 @@ class Posts extends React.Component {
 
         <h2>PROYECTOS</h2>
         <Post
-          text="Katapi  Librería API RiotGames"
+          text="KatApi  Librería API RiotGames"
           link="https://github.com/katarem/KatApi"
         />
         <Post
@@ -59,7 +59,7 @@ class Posts extends React.Component {
         />
         <Post
           text="RemBot  Bot de Discord en JavaScript"
-          link="https://github.com/katarem/portfolio"
+          link="https://github.com/katarem/rem-bot"
         />
 
         <div>
