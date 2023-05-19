@@ -118,6 +118,14 @@ body{
     transform: scale(1.1); 
 }
 
+.skillBox{
+    text-align: center;
+}
+
+.skillBox >*{
+    margin: 5px;
+}
+
 .buttonBox{
     padding: 5px;
 }
