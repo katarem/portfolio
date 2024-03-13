@@ -1,0 +1,29 @@
+.skills-root{
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/backgrounds/skills.jpg");
+    background-position: bottom;
+}
+
+.skills-container{
+    border-radius: 5rem;
+    box-shadow: 1px 1px 8px gray;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: larger;
+    max-width: 70%;
+}
+
+.skills-container > h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+.skills-grid{
+    padding: 1rem;
+}

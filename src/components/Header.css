@@ -1,13 +1,27 @@
 .header-root{
-    padding: 0.5rem;
+    padding: 0.7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0.1rem;
+    box-shadow: 1px 1px 10px gray;
+    width: 100%;
+    top: 0;
+    background-color: aliceblue;
+    position: fixed;
 }
 
 .header-menu{
+    margin-right: 1.5rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
+}
+
+.header-menu > * {
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
 }

@@ -2,14 +2,14 @@ import './Header.css'
 
 export default function Header(){
     return (
-        <section className="header-root">
+        <nav className="header-root">
             <h2>Katarem</h2>
             <div className="header-menu">
-                <h2>Inicio</h2>
-                <h2>Proyectos</h2>
-                <h2>Experiencia</h2>
-                <h2>Contacto</h2>
+                <a href='#home'>Inicio</a>
+                <a href='#skills'>Skills</a>
+                <a href='#proyectos'>Proyectos</a>
+                <a href='#contacto'>Contacto</a>
             </div>
-        </section>
+        </nav>
     );
 }
