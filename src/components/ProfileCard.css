@@ -1,3 +1,5 @@
+@import url('../themes.css');
+
 .profile-photo{
     width: 12rem;
     border-radius: 10rem;
@@ -10,9 +12,10 @@
     align-items: center;
     max-width: 50%;
     gap: 1rem;
-    box-shadow: 2px 2px 10px gray;
+    box-shadow: 2px 2px 10px var(--background);
     border-radius: 5rem;
-    background-color: aliceblue;
+    background-color: var(--background);
+    color: var(--text-primary);
     font-size: large;
 }
 

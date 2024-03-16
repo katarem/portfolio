@@ -1,13 +1,18 @@
+@import url('./themes.css');
+
 body{
   font-family: "main-font";
   margin: 0;
   padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 #root{
   margin: 0;
   padding: 0;
 }
+
 
 .content{
   margin-top: 20rem;

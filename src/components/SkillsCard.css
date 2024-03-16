@@ -1,3 +1,5 @@
+@import url('../themes.css');
+
 .skills-root{
     height: 60rem;
     display: flex;
@@ -9,12 +11,13 @@
 
 .skills-container{
     border-radius: 5rem;
-    box-shadow: 1px 1px 8px gray;
+    box-shadow: 1px 1px 8px var(--background);
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aliceblue;
+    background-color: var(--background);
+    color: var(--text-primary);
     font-size: larger;
     max-width: 70%;
 }

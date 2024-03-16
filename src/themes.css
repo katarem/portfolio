@@ -1,0 +1,9 @@
+[data-theme='dark'] {
+    --background: #202020;
+    --text-primary: aliceblue;
+}
+
+[data-theme='light'] {
+    --background: aliceblue;
+    --text-primary: #202020;
+}

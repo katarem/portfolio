@@ -1,17 +1,20 @@
+@import url('../themes.css');
+
 .header-root{
     padding: 0.7rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 1px 1px 10px gray;
+    box-shadow: 1px 1px 10px var(--background);
     width: 100%;
     top: 0;
-    background-color: aliceblue;
+    background-color: var(--background);
+    color: var(--text-primary);
     position: fixed;
 }
 
 .header-menu{
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -23,5 +26,9 @@
     font-size: larger;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: var(--text-primary);
+}
+
+.theme-switch {
+    width: 2rem;
 }
