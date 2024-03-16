@@ -1,0 +1,7 @@
+.arrow-btn{
+    width: 3rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    background-color: lightblue;
+    box-shadow: 1px 1px 10px black;
+}

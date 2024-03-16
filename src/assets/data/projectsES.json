@@ -1,0 +1,38 @@
+[
+    {
+        "name": "KatApi",
+        "description": "KatApi es una librería de Java para obtener información de las diferentes APIs de Riot Games sobre el videojuego League of Legends",
+        "technologies": [
+            "java",
+            "json",
+            "git",
+            "github"
+        ],
+        "link": "https://github.com/katarem/KatApi",
+        "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg"
+    },
+    {
+        "name": "rem-bot",
+        "description": "Bot de discord inspirado en Rem de Re:Zero, de momento sirve para reproducir música de YouTube e interactuar con él a través de comandos",
+        "technologies": [
+            "typescript",
+            "nodejs",
+            "git",
+            "github"
+        ],
+        "link": "https://github.com/katarem/Piratify",
+        "img": "https://i.gyazo.com/402655c211f80fc7efa5edd71cad58af.png"
+    },
+    { 
+        "name": "Piratify", 
+        "description": "App inspired by Spotify written in Jetpack Compose", 
+        "technologies": [
+            "kotlin",
+            "jetpack-compose",
+            "git",
+            "github"
+        ],
+        "link": "https://github.com/katarem/rem-bot",
+        "img": "https://i.blogs.es/4ff8ac/spotify/1366_2000.webp"
+    }
+]

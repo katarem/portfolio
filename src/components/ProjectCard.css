@@ -1,0 +1,33 @@
+@import url("../themes.css");
+
+.pcard-root{
+    box-shadow: 0.5px 0.5px 10px black;
+    width: 50%;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: var(--text-primary);
+    background-color: var(--background);
+    height: 40rem;
+}
+
+
+.pcard-img{
+    width: 100%;
+    height: 25rem;
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+}
+
+.pcard-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.pcard-content > h2{
+    font-size: 28px;
+    margin: 0;
+}

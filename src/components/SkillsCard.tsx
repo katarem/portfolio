@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react'
+import { ReactNode } from 'react'
 import './SkillsCard.css'
 
 export default function SkillsCard({ lang,children }: {lang: Language,children: ReactNode}){
