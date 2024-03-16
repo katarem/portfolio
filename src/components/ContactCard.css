@@ -1,0 +1,42 @@
+@import url("../themes.css");
+
+.contact-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50rem;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    font-size: larger;
+    justify-content: center;
+    background-color: var(--background);
+    color: var(--text-primary);
+    border-radius: 1.5rem;
+}
+
+input{
+    width: 20rem;
+}
+
+.contact-form > div{
+    gap: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 25rem;
+}
+.contact-form > button{
+    font-size: larger;
+    background-color: var(--text-primary);
+    color: var(--background);
+    border-radius: 5rem;
+}
+.mail-content{
+    height: 6rem;
+}

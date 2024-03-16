@@ -20,19 +20,19 @@
             "git",
             "github"
         ],
-        "link": "",
+        "link": "https://github.com/katarem/rem-bot",
         "img": "https://i.gyazo.com/402655c211f80fc7efa5edd71cad58af.png"
     },
     { 
         "name": "piratify", 
-        "description": "Spotify copy for Android", 
+        "description": "A music app inspired in the Spotify's design", 
         "technologies": [
             "kotlin",
             "jetpack-compose",
             "git",
             "github"
         ],
-        "link": "",
+        "link": "https://github.com/katarem/Piratify",
         "img": "https://i.blogs.es/4ff8ac/spotify/1366_2000.webp"
     }
 ]
