@@ -2,7 +2,7 @@
 
 .pcard-root{
     box-shadow: 0.5px 0.5px 10px black;
-    width: 50%;
+    width: 100%;
     margin: 1rem;
     border-radius: 1rem;
     color: var(--text-primary);
@@ -13,9 +13,42 @@
 
 .pcard-img{
     width: 100%;
+    aspect-ratio: "1:1";
+    object-fit: cover;
     height: 25rem;
     border-top-right-radius: 0.8rem;
     border-top-left-radius: 0.8rem;
+}
+
+@media screen and (max-width:1100px) {
+    .pcard-img{
+        height: 15rem;
+    }
+    .pcard-root{
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .pcard-img{
+        margin: 0;
+        height: 45%;
+        padding: 0;
+        width: 100%;
+    }
+    .pcard-root{
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .pcard-content{
+        font-size: small;
+    }
+    
 }
 
 .pcard-content{

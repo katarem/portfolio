@@ -76,7 +76,7 @@
     },
     {
         "name":"sqlserver",
-        "src":"./src/assets/icons/csharp.svg",
+        "src":"./src/assets/icons/sqlserver.svg",
         "url":"https://es.wikipedia.org/wiki/Microsoft_SQL_Server"
     },
     {
@@ -96,7 +96,7 @@
     },
     {
         "name":"linux",
-        "src":"./src/assets/icons/sqlite.svg",
+        "src":"./src/assets/icons/linux.svg",
         "url":"https://es.wikipedia.org/wiki/GNU/Linux"
     }
 ]

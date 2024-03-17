@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import './Header.css';
+import Menu from './Menu';
 
 export default function Header({ lang, onLanguageChange }: {lang: Language,onLanguageChange: () => void}){
 
     const [themeMode, setThemeMode] = useState('light')
-    
-    document.body.setAttribute('data-theme',themeMode);
+    const [showItems,setShowItems] = useState(false)
 
+
+    document.body.setAttribute('data-theme',themeMode);
+    const changeShowItems = () => { setShowItems(!showItems); }
     const changeMode = () => {
         if(themeMode == "dark") setThemeMode("light");
         else setThemeMode("dark");
@@ -14,17 +17,53 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
     const themeIcon = './src/assets/icons/' + themeMode + '.svg' 
     const langIcon = `./src/assets/icons/lang${lang.name}.svg`
 
-    return (
-        <nav className="header-root">
-            <h2>Katarem</h2>
-            <div className="header-menu">
-                <img src={langIcon} className='theme-switch' onClick={onLanguageChange}></img>
-                <img src={themeIcon} className="theme-switch" onClick={changeMode}></img>
-                <a href='#home'>{lang.home}</a>
-                <a href='#skills'>Skills</a>
-                <a href='#proyectos'>{lang.projects}</a>
-                <a href='#contacto'>{lang.contact}</a>
-            </div>
-        </nav>
+    const mobile = window.screen.width <= 600;
+
+    if(!mobile)
+        return (
+            <nav className="header-root">
+                <h2>Katarem</h2>
+                <div className="header-menu">
+                    <img src={langIcon} className='theme-switch' onClick={onLanguageChange}></img>
+                    <img src={themeIcon} className="theme-switch" onClick={changeMode}></img>
+                    <a href='#home'>{lang.home}</a>
+                    <a href='#skills'>Skills</a>
+                    <a href='#proyectos'>{lang.projects}</a>
+                    <a href='#contacto'>{lang.contact}</a>
+                </div>
+            </nav>
     );
+    else if(mobile && !showItems)
+        return(
+            <div>
+                <nav className="header-root">
+                <h2>Katarem</h2>
+                    <div className="header-menu">
+                        <img src={langIcon} className='theme-switch' onClick={onLanguageChange}></img>
+                        <img src={themeIcon} className="theme-switch" onClick={changeMode}></img>
+                    <Menu showMenu={ changeShowItems }/>
+                    </div>
+                </nav>
+            </div>
+    )
+    else return(
+        <div>
+                <nav className="header-root">
+                <h2>Katarem</h2>
+                    <div className="header-menu">
+                        <img src={langIcon} className='theme-switch' onClick={onLanguageChange}></img>
+                        <img src={themeIcon} className="theme-switch" onClick={changeMode}></img>
+                    <Menu showMenu={ changeShowItems }/>
+                    </div>
+                </nav>
+                <div className='menu-root'>
+                    <div className='menu-options'>
+                        <a href='home'>Home</a>
+                        <a href='skills'>Skills</a>
+                        <a href='proyectos'>Projects</a>
+                        <a href='contact'>Contact</a>
+                    </div>
+                </div>
+            </div>
+    )
 }

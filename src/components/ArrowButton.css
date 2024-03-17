@@ -5,3 +5,10 @@
     background-color: lightblue;
     box-shadow: 1px 1px 10px black;
 }
+
+@media screen and (max-width:600px){
+    .arrow-btn{
+        width: 1rem;
+        padding: 0.5rem;
+    }
+}

@@ -19,6 +19,35 @@
     font-size: large;
 }
 
+@media screen and (max-width:1100px) {
+    .profile-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        padding: 2rem;
+    }
+    .profile-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .profile-container{
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+    .profile-photo{
+        width: 9rem;
+    }
+    .profile-root{
+        padding: 1rem;
+        height: 30rem;
+    }
+}
+
 .profile-root{
     display: flex;
     flex-direction: row;

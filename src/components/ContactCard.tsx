@@ -24,12 +24,16 @@ export default function ContactCard({ lang }: { lang: Language }){
                     <input></input>
                 </div>
                 <div>
+                    <label>Email</label>
+                    <input></input>
+                </div>
+                <div>
                     <label>{contactFields.subject}</label>
                     <input></input>
                 </div>
                 <div>
                     <label>{contactFields.content}</label>
-                    <input className='mail-content'></input>
+                    <textarea className='mail-content'></textarea>
                 </div>
                 <button>{contactFields.send}</button>
             </form>
