@@ -1,7 +1,7 @@
 import './ContactCard.css'
 import contactsEN from '../assets/data/contactsEN.json'
 import contactsES from '../assets/data/contactsES.json'
-
+import { useState } from 'react';
 
 interface ContactFields{
     name: string,
@@ -16,26 +16,34 @@ export default function ContactCard({ lang }: { lang: Language }){
     if(lang.name === "ES") contactFields = contactsES;
     else contactFields = contactsEN;
 
+    const [name,setName] = useState("");
+    const [email,setEmail] = useState("");
+    const [subject,setSubject] = useState("");
+    const [content,setContent] = useState("");
+
+    const mailLink = `mailto:crismigesp@gmail.com?subject=${subject + ' - ' + `[ ${name} : ${email} ]`}&body=${content}`;
+
+
     return(
         <section className="contact-root">
-            <form className="contact-form">
+            <form id="contact-form" className="contact-form" >
                 <div>
-                    <label>{contactFields.name}</label>
-                    <input></input>
+                    <label htmlFor='name'>{contactFields.name}</label>
+                    <input id='name' autoComplete='off' value={name} onChange={ev => setName(ev.target.value)}></input>
                 </div>
                 <div>
                     <label>Email</label>
-                    <input></input>
+                    <input id='email' autoComplete='off' value={email} onChange={ev => setEmail(ev.target.value)}></input>
                 </div>
                 <div>
                     <label>{contactFields.subject}</label>
-                    <input></input>
+                    <input id='subject' autoComplete='off' value={subject} onChange={ev => setSubject(ev.target.value)}></input>
                 </div>
                 <div>
                     <label>{contactFields.content}</label>
-                    <textarea className='mail-content'></textarea>
+                    <textarea name='content' id='content' className='mail-content' autoComplete='off' value={content} onChange={ev => setContent(ev.target.value)}></textarea>
                 </div>
-                <button>{contactFields.send}</button>
+                <a className='contact-send' href={mailLink}>{contactFields.send}</a>
             </form>
         </section>
     )

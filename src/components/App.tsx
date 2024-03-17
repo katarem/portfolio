@@ -5,21 +5,20 @@ import { useState } from "react";
 import { EN, ES } from "../langs";
 import ProjectCardsContainer from "./ProjectCardsContainer";
 import ContactCard from "./ContactCard";
-import Menu from "./Menu";
 
 export default function App() {
 
     const [lang, setLang] = useState<Language>(ES);
 
     const changeLang = () => { if(lang === EN) setLang(ES); else setLang(EN); }
-
+    console.log(import.meta.env.VITE_HELLO)
     return(
       <div>
         <Header lang={lang} onLanguageChange={ changeLang } />
         <ProfileCard lang={lang}/>
         <SkillsCard lang={lang}/>
         <ProjectCardsContainer lang={lang}/>
-    <ContactCard lang={lang}/>
+        <ContactCard lang={lang}/>
       </div>  
     );
 }
