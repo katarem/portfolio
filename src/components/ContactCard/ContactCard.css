@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: 60rem;
-    background-image: url("../assets/backgrounds/contact.jpg");
+    background-image: url("../../../public/backgrounds/contact.jpg");
     background-size: cover;
 }
 

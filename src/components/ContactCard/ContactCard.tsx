@@ -1,7 +1,8 @@
 import './ContactCard.css'
-import contactsEN from '../../assets/data/contactsEN.json'
-import contactsES from '../../assets/data/contactsES.json'
+import contactsEN from '../../../public/contactsEN.json'
+import contactsES from '../../../public/contactsES.json'
 import { useState } from 'react';
+import { Language } from '../../utils/langs';
 
 interface ContactFields{
     name: string,

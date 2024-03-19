@@ -7,8 +7,6 @@ interface LinkButtonProps{
 }
 
 
-
-
 export default function LinkButton({ name, url, src }: LinkButtonProps){
    
     const openURL = () => {

@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: { project: Project}){
                 <p>{project.description}</p>
                 <section>
                     {project.technologies.map(tec => {
-                        let source = `./src/assets/icons/${tec}.svg`;
+                        let source = `../../../public/${tec}.svg`;
                         return <LinkButton src={source} name={tec}/>
                     })}
                     

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './Header.css';
 import Menu from '../Menu/Menu';
 import MenuOption from '../Menu/MenuOption';
-
+import { Language } from '../../utils/langs';
 export default function Header({ lang, onLanguageChange }: {lang: Language,onLanguageChange: () => void}){
 
     const [themeMode, setThemeMode] = useState('light')
@@ -18,8 +18,8 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
         else setThemeMode("dark");
     }
 
-    const themeIcon = './src/assets/icons/' + themeMode + '.svg' 
-    const langIcon = `./src/assets/icons/lang${lang.name}.svg`
+    const themeIcon = '../../../public/' + themeMode + '.svg' 
+    const langIcon = `../../../public/lang${lang.name}.svg`
 
     const mobile = window.screen.width <= 600;
 
