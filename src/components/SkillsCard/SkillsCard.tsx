@@ -1,6 +1,6 @@
 import './SkillsCard.css'
-import tecnologiesJSON from '../assets/data/technologies.json'
-import LinkButton from './LinkButton'
+import tecnologiesJSON from '../../assets/data/technologies.json'
+import LinkButton from '../LinkButton/LinkButton'
 
 interface Skill{
     name: string,

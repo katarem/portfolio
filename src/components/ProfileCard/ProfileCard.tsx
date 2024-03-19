@@ -1,5 +1,5 @@
 import './ProfileCard.css'
-import LinkButton from './LinkButton'
+import LinkButton from '../LinkButton/LinkButton'
 
 export default function ProfileCard({ lang }: {lang: Language}){
 

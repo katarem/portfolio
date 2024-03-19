@@ -1,4 +1,4 @@
-import LinkButton from "./LinkButton"
+import LinkButton from "../LinkButton/LinkButton"
 import './ProjectCard.css'
 
 export default function ProjectCard({ project }: { project: Project}){

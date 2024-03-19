@@ -1,9 +1,9 @@
 import { useState } from "react"
-import ArrowButton from "./ArrowButton"
+import ArrowButton from "../ArrowButton/ArrowButton"
 import ProjectCard from "./ProjectCard"
 import './ProjectCardsContainer.css'
-import esProjects from '../assets/data/projectsES.json'
-import enProjects from '../assets/data/projectsEN.json'
+import esProjects from '../../assets/data/projectsES.json'
+import enProjects from '../../assets/data/projectsEN.json'
 
 enum Directions{
     UP = "up",

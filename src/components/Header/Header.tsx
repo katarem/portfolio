@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Header.css';
-import Menu from './Menu';
-import MenuOption from './MenuOption';
+import Menu from '../Menu/Menu';
+import MenuOption from '../Menu/MenuOption';
 
 export default function Header({ lang, onLanguageChange }: {lang: Language,onLanguageChange: () => void}){
 
