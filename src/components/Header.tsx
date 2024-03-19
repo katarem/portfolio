@@ -1,19 +1,23 @@
 import { useState } from 'react';
 import './Header.css';
 import Menu from './Menu';
+import MenuOption from './MenuOption';
 
 export default function Header({ lang, onLanguageChange }: {lang: Language,onLanguageChange: () => void}){
 
     const [themeMode, setThemeMode] = useState('light')
     const [showItems,setShowItems] = useState(false)
-
+    const [currentPage,setCurrentPage] = useState("home_option")
 
     document.body.setAttribute('data-theme',themeMode);
+
     const changeShowItems = () => { setShowItems(!showItems); }
+
     const changeMode = () => {
         if(themeMode == "dark") setThemeMode("light");
         else setThemeMode("dark");
     }
+
     const themeIcon = './src/assets/icons/' + themeMode + '.svg' 
     const langIcon = `./src/assets/icons/lang${lang.name}.svg`
 
@@ -57,11 +61,12 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
                     </div>
                 </nav>
                 <div className='menu-root'>
-                    <div className='menu-options'>
-                        <a href='home'>Home</a>
-                        <a href='skills'>Skills</a>
-                        <a href='proyectos'>Projects</a>
-                        <a href='contact'>Contact</a>
+                    <div className='menu-options' id='options'>
+                        <MenuOption name={lang.home} currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption name='skills' currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption name={lang.projects} currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption name={lang.contact} currentPage={currentPage} onClick={setCurrentPage}/>
+
                     </div>
                 </div>
             </div>

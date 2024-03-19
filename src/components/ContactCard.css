@@ -33,8 +33,9 @@ input{
     justify-content: space-between;
     min-width: 25rem;
 }
-.contact-form > button{
+.contact-send{
     font-size: larger;
+    text-decoration: none;
     background-color: var(--text-primary);
     color: var(--background);
     border-radius: 5rem;
@@ -58,6 +59,7 @@ input{
     }
     
     .contact-send{
+        font-size: medium;
         padding: 0.5rem;
         padding-left: 1rem;
         padding-right: 1rem;

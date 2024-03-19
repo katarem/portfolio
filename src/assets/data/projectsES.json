@@ -25,7 +25,7 @@
     },
     { 
         "name": "Piratify", 
-        "description": "App inspired by Spotify written in Jetpack Compose", 
+        "description": "App inspirada en Spotify escrita en Jetpack Compose", 
         "technologies": [
             "kotlin",
             "jetpack-compose",

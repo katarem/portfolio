@@ -30,6 +30,15 @@
     .skills-root{
         padding: 0;
     }
+    .skills-grid{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .skills-grid{
+        margin-left: 0.65rem;
+    }
 }
 
 .skills-container > h1{

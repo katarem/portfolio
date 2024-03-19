@@ -25,7 +25,7 @@ export default function ContactCard({ lang }: { lang: Language }){
 
 
     return(
-        <section className="contact-root">
+        <section className="contact-root" id='contact'>
             <form id="contact-form" className="contact-form" >
                 <div>
                     <label htmlFor='name'>{contactFields.name}</label>

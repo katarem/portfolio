@@ -2,3 +2,10 @@
     width: 3rem;
     margin-left: 1rem;
 }
+
+@media screen and (max-width:600px) {
+    .linkbutton-image{
+        width: 2.5rem;
+        margin-left: 0.75rem;
+    }
+}
