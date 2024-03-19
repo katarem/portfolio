@@ -1,5 +1,5 @@
-import * as ES from './assets/languages/language-ES.json';
-import * as EN from './assets/languages/language-EN.json';
+import * as ES from './assets/data/language-ES.json';
+import * as EN from './assets/data/language-EN.json';
 
 export {
     ES,

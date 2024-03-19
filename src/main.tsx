@@ -3,7 +3,7 @@ import './index.css'
 import React from 'react'
 import App from './components/App.tsx'
 
-document.title = "Portolio 2024"
+document.title = "Portolio Katarem 2024"
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 

@@ -1,6 +1,7 @@
-@import url("../themes.css");
+@import url("../../themes.css");
 
 .option {
+    padding: 5px;
     font-size: larger;
     font-weight: 600;
     text-decoration: none;
@@ -9,6 +10,7 @@
 }
 
 .selected-option{
+    padding: 5px;
     font-size: larger;
     font-weight: 600;
     text-decoration: none;
