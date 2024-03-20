@@ -10,9 +10,9 @@ export default function ProjectCard({ project }: { project: Project}){
                 <h2>{project.name}</h2>
                 <p>{project.description}</p>
                 <section>
-                    {project.technologies.map(tec => {
-                        let source = `../../../public/${tec}.svg`;
-                        return <LinkButton src={source} name={tec}/>
+                    {project.technologies.map((tec, index) => {
+                        let source = `/${tec}.svg`;
+                        return <LinkButton src={source} key={index} name={tec}/>
                     })}
                     
                 </section>

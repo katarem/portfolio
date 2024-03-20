@@ -1,102 +1,102 @@
 [
     {
         "name":"git",
-        "src":"./src/assets/icons/git.svg",
+        "src":"/git.svg",
         "url":"https://git-scm.com/"
     },
     {
         "name":"java",
-        "src":"./src/assets/icons/java.svg",
+        "src":"/java.svg",
         "url":"https://www.java.com/"
     },
     {
         "name":"maven",
-        "src":"./src/assets/icons/maven.svg",
+        "src":"/maven.svg",
         "url":"https://maven.apache.org/"
     },
     {
         "name":"gradle",
-        "src":"./src/assets/icons/gradle.svg",
+        "src":"/gradle.svg",
         "url":"https://gradle.org/"
     },
     {
         "name":"spring",
-        "src":"./src/assets/icons/spring.svg",
+        "src":"/spring.svg",
         "url":"https://spring.io/"
     },
     {
         "name":"kotlin",
-        "src":"./src/assets/icons/kotlin.svg",
+        "src":"/kotlin.svg",
         "url":"https://kotlinlang.org/"
     },
     {
         "name":"jetpack-compose",
-        "src":"./src/assets/icons/jetpack-compose.svg",
+        "src":"/jetpack-compose.svg",
         "url":"https://developer.android.com/jetpack/compose?hl=es-419"
     },
     {
         "name":"javascript",
-        "src":"./src/assets/icons/javascript.svg",
+        "src":"/javascript.svg",
         "url":"https://developer.mozilla.org/es/docs/Web/JavaScript"
     },
     {
         "name":"typescript",
-        "src":"./src/assets/icons/typescript.svg",
+        "src":"/typescript.svg",
         "url":"https://www.typescriptlang.org/"
     },
     {
         "name":"node",
-        "src":"./src/assets/icons/nodejs.svg",
+        "src":"/nodejs.svg",
         "url":"https://nodejs.org/en"
     },
     {
         "name":"react",
-        "src":"./src/assets/icons/react.svg",
+        "src":"/react.svg",
         "url":"https://react.dev/"
     },
     {
         "name":"python",
-        "src":"./src/assets/icons/python.svg",
+        "src":"/python.svg",
         "url":"https://www.python.org/"
     },
     {
         "name":"c#",
-        "src":"./src/assets/icons/csharp.svg",
+        "src":"/csharp.svg",
         "url":"https://dotnet.microsoft.com/es-es/languages/csharp"
     },
     {
         "name":"unity",
-        "src":"./src/assets/icons/unity.svg",
+        "src":"/unity.svg",
         "url":"https://unity.com/es"
     },
     {
         "name":"mysql",
-        "src":"./src/assets/icons/mysql.svg",
+        "src":"/mysql.svg",
         "url":"https://www.mysql.com/"
     },
     {
         "name":"sqlserver",
-        "src":"./src/assets/icons/sqlserver.svg",
+        "src":"/sqlserver.svg",
         "url":"https://es.wikipedia.org/wiki/Microsoft_SQL_Server"
     },
     {
         "name":"sqlite",
-        "src":"./src/assets/icons/sqlite.svg",
+        "src":"/sqlite.svg",
         "url":"https://www.sqlite.org/"
     },
     {
         "name":"firebase",
-        "src":"./src/assets/icons/firebase.svg",
+        "src":"/firebase.svg",
         "url":"https://firebase.google.com/?hl=es"
     },
     {
         "name":"docker",
-        "src":"./src/assets/icons/docker.svg",
+        "src":"/docker.svg",
         "url":"https://www.docker.com/"
     },
     {
         "name":"linux",
-        "src":"./src/assets/icons/linux.svg",
+        "src":"/linux.svg",
         "url":"https://es.wikipedia.org/wiki/GNU/Linux"
     }
 ]

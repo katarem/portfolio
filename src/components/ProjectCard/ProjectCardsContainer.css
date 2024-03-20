@@ -32,6 +32,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../public/backgrounds/projects.jpg");
+    background-image: url("/backgrounds/projects.jpg");
     background-position: top;
 }

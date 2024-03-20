@@ -1,6 +1,6 @@
 import './ContactCard.css'
-import contactsEN from '../../../public/contactsEN.json'
-import contactsES from '../../../public/contactsES.json'
+import contactsEN from '../../data/contactsEN.json'
+import contactsES from '../../data/contactsES.json'
 import { useState } from 'react';
 import { Language } from '../../utils/langs';
 
