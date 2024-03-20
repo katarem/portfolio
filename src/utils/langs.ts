@@ -1,4 +1,4 @@
-import * as ES from '../data/language-EN.json';
+import * as ES from '../data/language-ES.json';
 import * as EN from '../data/language-EN.json';
 
 export {
