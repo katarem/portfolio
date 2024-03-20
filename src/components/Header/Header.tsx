@@ -18,8 +18,8 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
         else setThemeMode("dark");
     }
 
-    const themeIcon = '../../../public/' + themeMode + '.svg' 
-    const langIcon = `../../../public/lang${lang.name}.svg`
+    const themeIcon = '/' + themeMode + '.svg' 
+    const langIcon = `/lang${lang.name}.svg`
 
     const mobile = window.screen.width <= 600;
 
