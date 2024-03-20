@@ -32,3 +32,9 @@
 .theme-switch {
     width: 2rem;
 }
+
+.header-button-switch {
+    border: 0px transparent;
+    padding: 0px;
+    background-color: transparent;
+}
