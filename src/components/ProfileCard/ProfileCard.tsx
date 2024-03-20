@@ -11,8 +11,8 @@ export default function ProfileCard({ lang }: {lang: Language}){
                 <div className='profile-details'>
                     <p>{lang.about}</p>
                     <div className='profile-links'>
-                        <LinkButton name='GitHub' url='https://github.com/katarem' src='/icons/github.svg'/>
-                        <LinkButton name='LinkedIn' url='https://www.linkedin.com/in/cristian-m-espinosa-leal-129380268' src='/icons/linkedin.svg'/>       
+                        <LinkButton name='GitHub' url='https://github.com/katarem' src='/github.svg'/>
+                        <LinkButton name='LinkedIn' url='https://www.linkedin.com/in/cristian-m-espinosa-leal-129380268' src='/linkedin.svg'/>       
                     </div>
                 </div>
             </section>

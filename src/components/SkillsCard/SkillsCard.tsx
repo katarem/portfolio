@@ -18,7 +18,7 @@ export default function SkillsCard({ lang }: {lang: Language}){
                 <h1>Skills</h1>
                 <p>{lang.skills}</p>
                 <div className='skills-grid'>
-                    {technologies.map(tec => <LinkButton name={tec.name} src={tec.src} url={tec.url}/>)}
+                    {technologies.map((tec, index) => <LinkButton name={tec.name} key={index} src={tec.src} url={tec.url}/>)}
                 </div>
             </section>
         </section>
