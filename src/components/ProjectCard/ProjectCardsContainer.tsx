@@ -34,7 +34,7 @@ export default function ProjectCardsContainer({ lang }: { lang: Language}){
 
 
     return(
-        <div className="pcardcontainer-root" id="proyectos">
+        <div className="pcardcontainer-root" id="proyects">
             <div className="pcardcontainer-grid">
             <ArrowButton direction={Directions.LEFT} event={prev}/>
             <ProjectCard project={projects[index]}/>

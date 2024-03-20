@@ -36,8 +36,8 @@ export default function Header({ lang, onLanguageChange }: { lang: Language, onL
                     </button>
                     <a href='#home'>{lang.home}</a>
                     <a href='#skills'>Skills</a>
-                    <a href='#proyectos'>{lang.projects}</a>
-                    <a href='#contacto'>{lang.contact}</a>
+                    <a href='#proyects'>{lang.projects}</a>
+                    <a href='#contact'>{lang.contact}</a>
                 </div>
             </nav>
         );
