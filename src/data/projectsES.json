@@ -1,12 +1,29 @@
 [
     {
+        "name": "MangaCats", 
+        "description": "App de Android para leer manga", 
+        "technologies": [
+            "kotlin.svg",
+            "jetpack-compose.svg",
+            "coil.svg",
+            "glide.png",
+            "retrofit.png",
+            "json.svg",
+            "room.png",
+            "git.svg",
+            "github.svg"
+        ],
+        "link": "https://github.com/katarem/Piratify",
+        "img": "https://i.pinimg.com/736x/8e/57/69/8e5769bb9a127a1d5e6f0196bb854653.jpg"
+    },
+    {
         "name": "KatApi",
         "description": "KatApi es una librería de Java para obtener información de las diferentes APIs de Riot Games sobre el videojuego League of Legends",
         "technologies": [
-            "java",
-            "json",
-            "git",
-            "github"
+            "java.svg",
+            "json.svg",
+            "git.svg",
+            "github.svg"
         ],
         "link": "https://github.com/katarem/KatApi",
         "img": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg"
@@ -15,10 +32,10 @@
         "name": "rem-bot",
         "description": "Bot de discord inspirado en Rem de Re:Zero, de momento sirve para reproducir música de YouTube e interactuar con él a través de comandos",
         "technologies": [
-            "typescript",
-            "nodejs",
-            "git",
-            "github"
+            "typescript.svg",
+            "nodejs.svg",
+            "git.svg",
+            "github.svg"
         ],
         "link": "https://github.com/katarem/rem-bot",
         "img": "https://i.gyazo.com/402655c211f80fc7efa5edd71cad58af.png"
@@ -27,10 +44,10 @@
         "name": "Piratify", 
         "description": "App inspirada en Spotify escrita en Jetpack Compose", 
         "technologies": [
-            "kotlin",
-            "jetpack-compose",
-            "git",
-            "github"
+            "kotlin.svg",
+            "jetpack-compose.svg",
+            "git.svg",
+            "github.svg"
         ],
         "link": "https://github.com/katarem/Piratify",
         "img": "https://i.blogs.es/4ff8ac/spotify/1366_2000.webp"

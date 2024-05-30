@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: { project: Project}){
                 <p>{project.description}</p>
                 <section>
                     {project.technologies.map(tec => {
-                        const source = `./${tec}.svg`;
+                        const source = `./${tec}`;
                         return <LinkButton src={source} name={tec}/>
                     })}
                     

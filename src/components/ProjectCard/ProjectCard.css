@@ -29,6 +29,9 @@
         width: 100%;
         padding: 1rem;
     }
+    .pcard-content{
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width:900px) {
@@ -43,9 +46,13 @@
         height: 100%;
         width: 100%;
     }
+    .pcard-content{
+        text-align: justify;
+    }
 }
 @media screen and (max-width:600px) {
     .pcard-content{
+        text-align: center;
         font-size: small;
     }
     
@@ -57,7 +64,6 @@
     align-items: center;
     padding: 1rem;
     justify-content: center;
-    text-align: justify;
 }
 
 .pcard-content > h2{

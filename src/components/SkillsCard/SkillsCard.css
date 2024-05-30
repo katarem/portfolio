@@ -24,7 +24,7 @@
 
 @media screen and (max-width:600px){
     .skills-container{
-        text-align: justify;
+        text-align: start;
         padding: 1.5rem;
     }
     .skills-root{
