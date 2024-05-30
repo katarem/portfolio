@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../public/backgrounds/contact.jpg");
+    background-image: url("/public/backgrounds/skills.jpg");
     background-position: bottom;
 }
 

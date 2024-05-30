@@ -2,8 +2,8 @@ import { useState } from "react"
 import ArrowButton from "../ArrowButton/ArrowButton"
 import ProjectCard from "./ProjectCard"
 import './ProjectCardsContainer.css'
-import esProjects from '../../../public/projectsES.json'
-import enProjects from '../../../public/projectsEN.json'
+import esProjects from '../../data/projectsES.json'
+import enProjects from '../../data/projectsEN.json'
 import { Language } from "../../utils/langs"
 
 enum Directions{
@@ -34,7 +34,7 @@ export default function ProjectCardsContainer({ lang }: { lang: Language}){
 
 
     return(
-        <div className="pcardcontainer-root" id="proyectos">
+        <div className="pcardcontainer-root" id="projects">
             <div className="pcardcontainer-grid">
             <ArrowButton direction={Directions.LEFT} event={prev}/>
             <ProjectCard project={projects[index]}/>

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: 60rem;
-    background-image: url("../../../public/backgrounds/contact.jpg");
+    background-image: url("/public/backgrounds/contact.jpg");
     background-size: cover;
 }
 
@@ -34,6 +34,8 @@ input{
     min-width: 25rem;
 }
 .contact-send{
+    justify-content: center;
+    text-align: center;
     font-size: larger;
     text-decoration: none;
     background-color: var(--text-primary);

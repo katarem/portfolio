@@ -54,6 +54,6 @@
     justify-content: center;
     align-items: center;
     height: 60rem;
-    background-image: url("../../../public/backgrounds/profile.jpg");
+    background-image: url("/public/backgrounds/profile.jpg");
 
 }

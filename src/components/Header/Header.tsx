@@ -18,8 +18,8 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
         else setThemeMode("dark");
     }
 
-    const themeIcon = '../../../public/' + themeMode + '.svg' 
-    const langIcon = `../../../public/lang${lang.name}.svg`
+    const themeIcon = './' + themeMode + '.svg' 
+    const langIcon = `./lang${lang.name}.svg`
 
     const mobile = window.screen.width <= 600;
 
@@ -32,8 +32,8 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
                     <img src={themeIcon} className="theme-switch" onClick={changeMode}></img>
                     <a href='#home'>{lang.home}</a>
                     <a href='#skills'>Skills</a>
-                    <a href='#proyectos'>{lang.projects}</a>
-                    <a href='#contacto'>{lang.contact}</a>
+                    <a href='#projects'>{lang.projects}</a>
+                    <a href='#contact'>{lang.contact}</a>
                 </div>
             </nav>
     );
@@ -62,10 +62,10 @@ export default function Header({ lang, onLanguageChange }: {lang: Language,onLan
                 </nav>
                 <div className='menu-root'>
                     <div className='menu-options' id='options'>
-                        <MenuOption name={lang.home} currentPage={currentPage} onClick={setCurrentPage}/>
-                        <MenuOption name='skills' currentPage={currentPage} onClick={setCurrentPage}/>
-                        <MenuOption name={lang.projects} currentPage={currentPage} onClick={setCurrentPage}/>
-                        <MenuOption name={lang.contact} currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption id='home' name={lang.home} currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption id='skills' name='Skills' currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption id='projects' name={lang.projects} currentPage={currentPage} onClick={setCurrentPage}/>
+                        <MenuOption id='contact' name={lang.contact} currentPage={currentPage} onClick={setCurrentPage}/>
 
                     </div>
                 </div>
